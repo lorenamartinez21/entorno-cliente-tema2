@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="es_ES">
+    <meta charset="UTF-8">
+    <title>EJEMPLO FORMULARIO</title>
+    <link rel="stylesheet" href="EJEMPLOFORMULARIO.CSS">
+    <script src="EJEMPLOFORMULARIO.JS" cache="false"></script>
+</head>
+<body>
+   <form id= "a">
+        <div>
+            <label for = "nom">NOMBRE</label>
+            <input id="nombre"><br>
+            <div id="erroresNombre"></div>
+            <br>
+            <label for = "ape">APELLIDOS</label>
+             <input id="apellidos"><br>
+             <div id="erroresApellidos"></div>
+             <br>
+            <label for = "ed">EDAD</label>
+             <input id="edad"><br>
+             <div id="erroresEdad"></div>
+             <br>
+            <div>
+            <label for = "pro">PROFESIÓN</label>
+             <select id="profesion">
+                    <option value="ninguno">ninguno</option>
+                    <option value="profesor">profesor</option>
+                    <option value="limpiador">limpiador</option>
+                    <option value="administrador">administrador</option>
+                    <option value="recepcionista">recepcionista</option>
+                </select>
+                <div id="erroresProfesion"></div>
+            </div>
+             <div id="divListadoProfesiones"></div>
+        </div>
+            <br>
+            <label for = "poli">¿ACEPTA POLÍTICA DE DATOS?</label>
+           
+            <input id="check" type="checkbox" value="si">
+            <div id="erroresCheck"></div>
+
+            <div>
+                <br>
+              <button id="botonCrear" type="Submit" name="crear">CREAR</button>
+            <div id="crear"></div>
+
+            </div>
+        
+    </form>
+    <div id="result"></div>
+
+</body>
+</html>
